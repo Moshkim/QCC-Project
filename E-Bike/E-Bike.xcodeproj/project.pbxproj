@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD78F6B1E65FE5400F1EBE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD78F6A1E65FE5400F1EBE9 /* AppDelegate.swift */; };
+		FAD78F6D1E65FE5400F1EBE9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD78F6C1E65FE5400F1EBE9 /* RootViewController.swift */; };
+		FAD78F6F1E65FE5400F1EBE9 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD78F6E1E65FE5400F1EBE9 /* DataViewController.swift */; };
+		FAD78F711E65FE5400F1EBE9 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD78F701E65FE5400F1EBE9 /* ModelController.swift */; };
+		FAD78F741E65FE5400F1EBE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD78F721E65FE5400F1EBE9 /* Main.storyboard */; };
+		FAD78F761E65FE5400F1EBE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD78F751E65FE5400F1EBE9 /* Assets.xcassets */; };
+		FAD78F791E65FE5400F1EBE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD78F771E65FE5400F1EBE9 /* LaunchScreen.storyboard */; };
+		FAD78F841E65FE5400F1EBE9 /* E_BikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD78F831E65FE5400F1EBE9 /* E_BikeTests.swift */; };
+		FAD78F8F1E65FE5400F1EBE9 /* E_BikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD78F8E1E65FE5400F1EBE9 /* E_BikeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD78F801E65FE5400F1EBE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD78F5F1E65FE5400F1EBE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD78F661E65FE5400F1EBE9;
+			remoteInfo = "E-Bike";
+		};
+		FAD78F8B1E65FE5400F1EBE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD78F5F1E65FE5400F1EBE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD78F661E65FE5400F1EBE9;
+			remoteInfo = "E-Bike";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD78F671E65FE5400F1EBE9 /* E-Bike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Bike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD78F6A1E65FE5400F1EBE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD78F6C1E65FE5400F1EBE9 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FAD78F6E1E65FE5400F1EBE9 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		FAD78F701E65FE5400F1EBE9 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		FAD78F731E65FE5400F1EBE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD78F751E65FE5400F1EBE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD78F781E65FE5400F1EBE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD78F7A1E65FE5400F1EBE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD78F7F1E65FE5400F1EBE9 /* E-BikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-BikeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD78F831E65FE5400F1EBE9 /* E_BikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_BikeTests.swift; sourceTree = "<group>"; };
+		FAD78F851E65FE5400F1EBE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD78F8A1E65FE5400F1EBE9 /* E-BikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-BikeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD78F8E1E65FE5400F1EBE9 /* E_BikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_BikeUITests.swift; sourceTree = "<group>"; };
+		FAD78F901E65FE5400F1EBE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD78F641E65FE5400F1EBE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD78F7C1E65FE5400F1EBE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD78F871E65FE5400F1EBE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD78F5E1E65FE5400F1EBE9 = {
+			isa = PBXGroup;
+			children = (
+				FAD78F691E65FE5400F1EBE9 /* E-Bike */,
+				FAD78F821E65FE5400F1EBE9 /* E-BikeTests */,
+				FAD78F8D1E65FE5400F1EBE9 /* E-BikeUITests */,
+				FAD78F681E65FE5400F1EBE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD78F681E65FE5400F1EBE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD78F671E65FE5400F1EBE9 /* E-Bike.app */,
+				FAD78F7F1E65FE5400F1EBE9 /* E-BikeTests.xctest */,
+				FAD78F8A1E65FE5400F1EBE9 /* E-BikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD78F691E65FE5400F1EBE9 /* E-Bike */ = {
+			isa = PBXGroup;
+			children = (
+				FAD78F6A1E65FE5400F1EBE9 /* AppDelegate.swift */,
+				FAD78F6C1E65FE5400F1EBE9 /* RootViewController.swift */,
+				FAD78F6E1E65FE5400F1EBE9 /* DataViewController.swift */,
+				FAD78F701E65FE5400F1EBE9 /* ModelController.swift */,
+				FAD78F721E65FE5400F1EBE9 /* Main.storyboard */,
+				FAD78F751E65FE5400F1EBE9 /* Assets.xcassets */,
+				FAD78F771E65FE5400F1EBE9 /* LaunchScreen.storyboard */,
+				FAD78F7A1E65FE5400F1EBE9 /* Info.plist */,
+			);
+			path = "E-Bike";
+			sourceTree = "<group>";
+		};
+		FAD78F821E65FE5400F1EBE9 /* E-BikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD78F831E65FE5400F1EBE9 /* E_BikeTests.swift */,
+				FAD78F851E65FE5400F1EBE9 /* Info.plist */,
+			);
+			path = "E-BikeTests";
+			sourceTree = "<group>";
+		};
+		FAD78F8D1E65FE5400F1EBE9 /* E-BikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD78F8E1E65FE5400F1EBE9 /* E_BikeUITests.swift */,
+				FAD78F901E65FE5400F1EBE9 /* Info.plist */,
+			);
+			path = "E-BikeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD78F661E65FE5400F1EBE9 /* E-Bike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD78F931E65FE5400F1EBE9 /* Build configuration list for PBXNativeTarget "E-Bike" */;
+			buildPhases = (
+				FAD78F631E65FE5400F1EBE9 /* Sources */,
+				FAD78F641E65FE5400F1EBE9 /* Frameworks */,
+				FAD78F651E65FE5400F1EBE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-Bike";
+			productName = "E-Bike";
+			productReference = FAD78F671E65FE5400F1EBE9 /* E-Bike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD78F7E1E65FE5400F1EBE9 /* E-BikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD78F961E65FE5400F1EBE9 /* Build configuration list for PBXNativeTarget "E-BikeTests" */;
+			buildPhases = (
+				FAD78F7B1E65FE5400F1EBE9 /* Sources */,
+				FAD78F7C1E65FE5400F1EBE9 /* Frameworks */,
+				FAD78F7D1E65FE5400F1EBE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD78F811E65FE5400F1EBE9 /* PBXTargetDependency */,
+			);
+			name = "E-BikeTests";
+			productName = "E-BikeTests";
+			productReference = FAD78F7F1E65FE5400F1EBE9 /* E-BikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAD78F891E65FE5400F1EBE9 /* E-BikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD78F991E65FE5400F1EBE9 /* Build configuration list for PBXNativeTarget "E-BikeUITests" */;
+			buildPhases = (
+				FAD78F861E65FE5400F1EBE9 /* Sources */,
+				FAD78F871E65FE5400F1EBE9 /* Frameworks */,
+				FAD78F881E65FE5400F1EBE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD78F8C1E65FE5400F1EBE9 /* PBXTargetDependency */,
+			);
+			name = "E-BikeUITests";
+			productName = "E-BikeUITests";
+			productReference = FAD78F8A1E65FE5400F1EBE9 /* E-BikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD78F5F1E65FE5400F1EBE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DTI;
+				TargetAttributes = {
+					FAD78F661E65FE5400F1EBE9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JB4K9XSBZ5;
+						ProvisioningStyle = Automatic;
+					};
+					FAD78F7E1E65FE5400F1EBE9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAD78F661E65FE5400F1EBE9;
+					};
+					FAD78F891E65FE5400F1EBE9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAD78F661E65FE5400F1EBE9;
+					};
+				};
+			};
+			buildConfigurationList = FAD78F621E65FE5400F1EBE9 /* Build configuration list for PBXProject "E-Bike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD78F5E1E65FE5400F1EBE9;
+			productRefGroup = FAD78F681E65FE5400F1EBE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD78F661E65FE5400F1EBE9 /* E-Bike */,
+				FAD78F7E1E65FE5400F1EBE9 /* E-BikeTests */,
+				FAD78F891E65FE5400F1EBE9 /* E-BikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD78F651E65FE5400F1EBE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD78F791E65FE5400F1EBE9 /* LaunchScreen.storyboard in Resources */,
+				FAD78F761E65FE5400F1EBE9 /* Assets.xcassets in Resources */,
+				FAD78F741E65FE5400F1EBE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD78F7D1E65FE5400F1EBE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD78F881E65FE5400F1EBE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD78F631E65FE5400F1EBE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD78F6D1E65FE5400F1EBE9 /* RootViewController.swift in Sources */,
+				FAD78F711E65FE5400F1EBE9 /* ModelController.swift in Sources */,
+				FAD78F6F1E65FE5400F1EBE9 /* DataViewController.swift in Sources */,
+				FAD78F6B1E65FE5400F1EBE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD78F7B1E65FE5400F1EBE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD78F841E65FE5400F1EBE9 /* E_BikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD78F861E65FE5400F1EBE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD78F8F1E65FE5400F1EBE9 /* E_BikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD78F811E65FE5400F1EBE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD78F661E65FE5400F1EBE9 /* E-Bike */;
+			targetProxy = FAD78F801E65FE5400F1EBE9 /* PBXContainerItemProxy */;
+		};
+		FAD78F8C1E65FE5400F1EBE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD78F661E65FE5400F1EBE9 /* E-Bike */;
+			targetProxy = FAD78F8B1E65FE5400F1EBE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD78F721E65FE5400F1EBE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD78F731E65FE5400F1EBE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD78F771E65FE5400F1EBE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD78F781E65FE5400F1EBE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD78F911E65FE5400F1EBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD78F921E65FE5400F1EBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD78F941E65FE5400F1EBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JB4K9XSBZ5;
+				INFOPLIST_FILE = "E-Bike/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantumcorecorp.E-Bike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAD78F951E65FE5400F1EBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JB4K9XSBZ5;
+				INFOPLIST_FILE = "E-Bike/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantumcorecorp.E-Bike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FAD78F971E65FE5400F1EBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "E-BikeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantumcorecorp.E-BikeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-Bike.app/E-Bike";
+			};
+			name = Debug;
+		};
+		FAD78F981E65FE5400F1EBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "E-BikeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantumcorecorp.E-BikeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-Bike.app/E-Bike";
+			};
+			name = Release;
+		};
+		FAD78F9A1E65FE5400F1EBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "E-BikeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantumcorecorp.E-BikeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "E-Bike";
+			};
+			name = Debug;
+		};
+		FAD78F9B1E65FE5400F1EBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "E-BikeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantumcorecorp.E-BikeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "E-Bike";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD78F621E65FE5400F1EBE9 /* Build configuration list for PBXProject "E-Bike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD78F911E65FE5400F1EBE9 /* Debug */,
+				FAD78F921E65FE5400F1EBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD78F931E65FE5400F1EBE9 /* Build configuration list for PBXNativeTarget "E-Bike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD78F941E65FE5400F1EBE9 /* Debug */,
+				FAD78F951E65FE5400F1EBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAD78F961E65FE5400F1EBE9 /* Build configuration list for PBXNativeTarget "E-BikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD78F971E65FE5400F1EBE9 /* Debug */,
+				FAD78F981E65FE5400F1EBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAD78F991E65FE5400F1EBE9 /* Build configuration list for PBXNativeTarget "E-BikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD78F9A1E65FE5400F1EBE9 /* Debug */,
+				FAD78F9B1E65FE5400F1EBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD78F5F1E65FE5400F1EBE9 /* Project object */;
+}

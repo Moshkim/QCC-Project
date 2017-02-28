@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>E-Bike.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FAD78F661E65FE5400F1EBE9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAD78F7E1E65FE5400F1EBE9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAD78F891E65FE5400F1EBE9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
